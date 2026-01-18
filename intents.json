@@ -1,0 +1,115 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "How are you",
+        "What's up"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there, how are you doing?",
+        "Good to see you again!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Quit"
+      ],
+      "responses": [
+        "Goodbye! Take care.",
+        "See you next time!",
+        "Bye! Stay healthy."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Much appreciated",
+        "Thanks a lot"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime!"
+      ]
+    },
+    {
+      "tag": "adverse_drug_reaction",
+      "patterns": [
+        "Tell me about adverse drug reactions",
+        "What are drug side effects",
+        "What happens if I mix paracetamol with alcohol",
+        "Side effects of medicine",
+        "Is it safe to take ibuprofen with alcohol"
+      ],
+      "responses": [
+        "Adverse drug reactions are unwanted effects caused by medicines. Always consult your doctor if you notice unusual symptoms.",
+        "Mixing paracetamol with alcohol can cause liver damage. Please avoid combining them.",
+        "Taking ibuprofen with alcohol may increase the risk of stomach bleeding and ulcers."
+      ]
+    },
+    {
+      "tag": "blood_pressure",
+      "patterns": [
+        "What is normal blood pressure",
+        "How do I track blood pressure",
+        "Tell me about hypertension",
+        "How to reduce high blood pressure",
+        "What is low blood pressure"
+      ],
+      "responses": [
+        "Normal blood pressure is around 120/80 mmHg.",
+        "You can track your blood pressure using a digital monitor at home.",
+        "To reduce high blood pressure, try reducing salt intake, exercising regularly, and managing stress."
+      ]
+    },
+    {
+      "tag": "hospital_info",
+      "patterns": [
+        "Where is the nearest hospital",
+        "Show me hospitals nearby",
+        "List some emergency hospitals",
+        "I need a hospital",
+        "Find me a clinic"
+      ],
+      "responses": [
+        "Please visit your nearest hospital or use Google Maps to locate emergency services.",
+        "I can guide you to hospitals and clinics around your area.",
+        "For emergencies, always call your local emergency number first."
+      ]
+    },
+    {
+      "tag": "pharmacy_info",
+      "patterns": [
+        "Where can I buy medicine",
+        "Find me a pharmacy",
+        "Nearby chemist",
+        "Pharmacy near me"
+      ],
+      "responses": [
+        "You can find pharmacies nearby using Google Maps or health apps.",
+        "Check with your local medical store for available medicines.",
+        "Many hospitals also have attached pharmacies for convenience."
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": [
+        "Sorry, I didn’t understand that. I can help with drug reactions, blood pressure, hospitals, or pharmacies.",
+        "I'm still learning! Try asking me about medicines, blood pressure, or hospitals."
+      ]
+    }
+  ]
+}

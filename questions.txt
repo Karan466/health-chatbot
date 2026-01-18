@@ -1,0 +1,46 @@
+Greetings:
+- Hi
+- Hello
+- How are you
+- Good morning
+
+Goodbye:
+- Bye
+- See you later
+- Quit
+
+Thanks:
+- Thanks
+- Thank you
+- Much appreciated
+
+Adverse Drug Reactions:
+- Tell me about adverse drug reactions
+- What are drug side effects
+- What happens if I mix paracetamol with alcohol
+- Is it safe to take ibuprofen with alcohol
+- Side effects of medicine
+
+Blood Pressure:
+- What is normal blood pressure
+- How do I track blood pressure
+- Tell me about hypertension
+- How to reduce high blood pressure
+- What is low blood pressure
+
+Hospitals:
+- Where is the nearest hospital
+- Show me hospitals nearby
+- List some emergency hospitals
+- I need a hospital
+
+Pharmacies:
+- Where can I buy medicine
+- Find me a pharmacy
+- Nearby chemist
+- Pharmacy near me
+
+Fallback (unknown queries):
+- Who is the president of India
+- Tell me about space
+- What is the weather today
